@@ -1,5 +1,5 @@
 <?php
-require_once 'process.php';
+require_once 'insert.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +19,7 @@ require_once 'process.php';
 <body>
     <h1>test</h1>
 
-    <form action="process.php" method="POST">
+    <form action="insert.php" method="POST">
         <div class="form-group">
             <lable>name</lable>
             <input type="text" name="name">
@@ -43,7 +43,7 @@ require_once 'process.php';
                 <option value="meubels">overig</option>
             </select>
         </div>
-        <input type="submit">
+        <input type="submit" name="save">
     </form>
 </body>
 

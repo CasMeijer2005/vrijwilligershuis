@@ -1,18 +1,17 @@
 <?php
-require_once 'assets/core/db.php';
+include "assets/core/db.php";
 
-
-$mysqli = new mysqli('localhost', 'root', '', 'vrijwilligershuis') or die(mysqli_error($mysqli));
 if (isset($_POST['save'])) {
-    $name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $email = $_POST['email'];
-    $query = "INSERT INTO donaties (`name`,`phone`,`email`) VALUES ('$name','$phone','$email')";
-    echo $query;
-    $mysqli->query($query) or
-        die($mysqli->error);
+    // echo "test" . LINE . "\n";
+    $queryUserName = $_POST['name'];
+    $queryUserEmail = $_POST['email'];
+    $queryUserphone = $_POST['phone'];
+    $queryUsercategory = $_POST['category'];
 
-    // $_SESSION['message'] = "record has been saved!";
-    // $_SESSION['msg_type'] = "success";
-    header("location: index.php");
+    $insertQuery = $con->prepare("INSERT INTO donaties (name, email, phone, category) VALUES (?, ?, ?, ?);");
+    $insertQuery->bind_param("ssss", $queryUserName, $queryUserEmail, $queryUserphone, $queryUsercategory);
+    if ($insertQuery->execute()) {
+    }
 }
+$con->close();
+?>

@@ -1,14 +1,11 @@
-<?php
-require_once 'insert.php';
-?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vrijwilligershuis Nieuwegein</title>
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -21,26 +18,26 @@ require_once 'insert.php';
 
     <form action="insert.php" method="POST">
         <div class="form-group">
-            <lable>name</lable>
+            <lable>Naam</lable>
             <input type="text" name="name">
         </div>
         <div class="form-group">
-            <lable>phone number</lable>
+            <lable>Telefoon Nummer</lable>
             <input type="text" name="phone">
         </div>
         <div class="form-group">
-            <lable>email address</lable>
+            <lable>Email Adress</lable>
             <input type="text" name="email">
         </div>
         <div class=" formg-roup">
             <select name="category" id="">
                 <option value=""></option>
-                <option value="meubels">meubels</option>
-                <option value="meubels">vervoer</option>
-                <option value="meubels">kleding</option>
-                <option value="meubels">voetsel</option>
-                <option value="meubels">fietsen</option>
-                <option value="meubels">overig</option>
+                <option value="meubels">Meubels</option>
+                <option value="meubels">Vervoer</option>
+                <option value="meubels">Kleding</option>
+                <option value="meubels">Voetsel</option>
+                <option value="meubels">Fietsen</option>
+                <option value="meubels">tolk</option>
             </select>
         </div>
         <input type="submit" name="save">

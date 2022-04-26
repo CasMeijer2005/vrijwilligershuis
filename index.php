@@ -23,11 +23,15 @@
             <select name="category" id="category">
                 <option disabled value selected="category">selecteer een category</option>
                 <option value="meubels">Meubels</option>
-                <option value="meubels">Vervoer</option>
+                <option value="meubels">Vervoer aanbieden</option>
+                <option value="meubels">Maatje / buddy worden</option>
+                <option value="meubels">Fiets doneren</option>
                 <option value="meubels">Kleding</option>
-                <option value="meubels">Voetsel</option>
-                <option value="meubels">Fietsen</option>
-                <option value="meubels">tolk</option>
+                <option value="meubels">Speelgoed</option>
+                <option value="meubels">Verzorgingsproducten</option>
+                <option value="meubels">Ik wil een activiteit organiseren /opzetten</option>
+                <option value="meubels">Ik wil me inzetten als vrijwilliger</option>
+                <option value="meubels">Taal / tolk</option>
             </select>
             <textarea type="notes" name="notes" id="notes" placeholder="notes" required></textarea>
 

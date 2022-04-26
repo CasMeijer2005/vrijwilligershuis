@@ -14,27 +14,27 @@
 </head>
 
 <body>
-    
- <div id="container">
-    <form id="RegForm" method="post">
-                   	<input type="text" name="username" id="username" placeholder="Username" required>
-            		<input type="text" name="email" id="email" placeholder="Email" required>
-            		<input type="text" name="phone" id="phone" placeholder="phonenumber" required>
-                    <select name="category" id="category">
-                        <option disabled value selected="category">selecteer een category</option>
-                        <option value="meubels">Meubels</option>
-                        <option value="meubels">Vervoer</option>
-                        <option value="meubels">Kleding</option>
-                        <option value="meubels">Voetsel</option>
-                        <option value="meubels">Fietsen</option>
-                        <option value="meubels">tolk</option>
-                    </select>
-            		<textarea type="notes" name="notes" id="notes" placeholder="notes" required></textarea>
 
-                    <input id="submit" type="submit" name="submit" value="submit">
-               </form>
-    </form>
- </div>
+    <div id="container">
+        <form id="RegForm" method="post" action="insert.php">
+            <input type="text" name="name" id="username" placeholder="Username" required>
+            <input type="text" name="email" id="email" placeholder="Email" required>
+            <input type="text" name="phone" id="phone" placeholder="phonenumber" required>
+            <select name="category" id="category">
+                <option disabled value selected="category">selecteer een category</option>
+                <option value="meubels">Meubels</option>
+                <option value="meubels">Vervoer</option>
+                <option value="meubels">Kleding</option>
+                <option value="meubels">Voetsel</option>
+                <option value="meubels">Fietsen</option>
+                <option value="meubels">tolk</option>
+            </select>
+            <textarea type="notes" name="notes" id="notes" placeholder="notes" required></textarea>
+
+            <input id="submit" type="submit" name="submit" value="submit">
+        </form>
+        </form>
+    </div>
 </body>
 
 </html>

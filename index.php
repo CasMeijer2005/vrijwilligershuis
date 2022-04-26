@@ -14,34 +14,27 @@
 </head>
 
 <body>
-    <h1>test</h1>
+    
+ <div id="container">
+    <form id="RegForm" method="post">
+                   	<input type="text" name="username" id="username" placeholder="Username" required>
+            		<input type="text" name="email" id="email" placeholder="Email" required>
+            		<input type="text" name="phone" id="phone" placeholder="phonenumber" required>
+                    <select name="category" id="category">
+                        <option disabled value selected="category">selecteer een category</option>
+                        <option value="meubels">Meubels</option>
+                        <option value="meubels">Vervoer</option>
+                        <option value="meubels">Kleding</option>
+                        <option value="meubels">Voetsel</option>
+                        <option value="meubels">Fietsen</option>
+                        <option value="meubels">tolk</option>
+                    </select>
+            		<textarea type="notes" name="notes" id="notes" placeholder="notes" required></textarea>
 
-    <form action="insert.php" method="POST">
-        <div class="form-group">
-            <lable>Naam</lable>
-            <input type="text" name="name">
-        </div>
-        <div class="form-group">
-            <lable>Telefoon Nummer</lable>
-            <input type="text" name="phone">
-        </div>
-        <div class="form-group">
-            <lable>Email Adress</lable>
-            <input type="text" name="email">
-        </div>
-        <div class=" formg-roup">
-            <select name="category" id="">
-                <option value=""></option>
-                <option value="meubels">Meubels</option>
-                <option value="meubels">Vervoer</option>
-                <option value="meubels">Kleding</option>
-                <option value="meubels">Voetsel</option>
-                <option value="meubels">Fietsen</option>
-                <option value="meubels">tolk</option>
-            </select>
-        </div>
-        <input type="submit" name="save">
+                    <input id="submit" type="submit" name="submit" value="submit">
+               </form>
     </form>
+ </div>
 </body>
 
 </html>

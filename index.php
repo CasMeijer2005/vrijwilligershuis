@@ -45,49 +45,49 @@
         <div class="container">
 
             <div id="im "><img src="./assets/img/unknown.png" alt="ukrain"> </div>
-                <div class="container d-flex justify-content-center">
-                    <form id="RegForm" method="post" action="insert.php">
-                        <div class="row">
-                            <div class="form-group col">
-                                <lable class="">Naam</lable>
-                                <input type="text" class="form-control" name="name" id="username" placeholder="Gebruikersnaam" required>
-                            </div>
+            <div class="container d-flex justify-content-center">
+                <form id="RegForm" method="post" action="insert.php">
+                    <div class="row">
+                        <div class="form-group col">
+                            <lable class="">Naam</lable>
+                            <input type="text" class="form-control" name="name" id="username" placeholder="Gebruikersnaam" required>
                         </div>
-                        <div class="row">
-                            <div class="form-group col">
-                                <lable class="">Email Address</lable>
-                                <input type="text" class="form-control" name=" email" id="email" placeholder="Email Address" required>
-                            </div>
-                            <div class="fourm-group col">
-                                <lable class="">Telefoonnummer</lable>
-                                <input type="text" class="form-control" name="phone" id="phone" placeholder="Telefoonnummer" required>
-                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col">
+                            <lable class="">Email Address</lable>
+                            <input type="text" class="form-control" name=" email" id="email" placeholder="Email Address" required>
                         </div>
+                        <div class="fourm-group col">
+                            <lable class="">Telefoonnummer</lable>
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Telefoonnummer" required>
+                        </div>
+                    </div>
+                    <div class="fourm-group">
+                        <label>Selecteer een catergorie</label>
+                        <select class="form-control" name="category" id="category">
+                            <option disabled value selected="category">Selecteer een categorie</option>
+                            <option value="meubels">Meubels</option>
+                            <option value="vervoer">Vervoer aanbieden</option>
+                            <option value="buddy">Maatje / buddy worden</option>
+                            <option value="fiets">Fiets doneren</option>
+                            <option value="Kleding">Kleding</option>
+                            <option value="Speelgoed">Speelgoed</option>
 
-                        <div class="fourm-group">
-                            <label>Selecteer een catergorie</label>
-                            <select class="form-control" name="category" id="category">
-                                <option disabled value selected="category">Selecteer een categorie</option>
-                                <option value="meubels">Meubels</option>
-                                <option value="vervoer">Vervoer aanbieden</option>
-                                <option value="buddy">Maatje / buddy worden</option>
-                                <option value="fiets">Fiets doneren</option>
-                                <option value="Kleding">Kleding</option>
-                                <option value="Speelgoed">Speelgoed</option>
-                                <option value="Verzorgingsproducten">Verzorgingsproducten</option>
-                                <option value="actititeit">activieit organiseren</option>
-                                <option value="Voetsel">vrijwilliger</option>
-                                <option value="Tolk">Tolk</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <lable>Schrijf hier wat belangrijke informatie</lable>
-                            <textarea type="notes" class="form-control" name="notes" id="notes" placeholder="Notities" required></textarea>
-                        </div>
-                        <input class="btn btn-primary " id="submit" type="submit" name="submit" value="submit">
-                    </form>
+                            <option value="Verzorgingsproducten">Verzorgingsproducten</option>
+                            <option value="actititeit">activieit organiseren</option>
+                            <option value="Voetsel">vrijwilliger</option>
+                            <option value="Tolk">Tolk</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <lable>Schrijf hier wat belangrijke informatie</lable>
+                        <textarea type="notes" class="form-control" name="notes" id="notes" placeholder="Notities" required></textarea>
+                    </div>
+                    <input class="btn btn-primary " id="submit" type="submit" name="submit" value="submit">
+                </form>
 
-                </div>
+            </div>
 </body>
 
 </html>

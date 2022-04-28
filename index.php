@@ -38,7 +38,7 @@
     <main></main>
     <div class="background">
         <div class="bluebg">
-            <div class="input-group">
+            <div class="input-group search">
                 <input type="search" class="form-control rounded" placeholder="Vacature, evenement, organisatie etc..." aria-label="Search" aria-describedby="search-addon" />
                 <button type="button" class="btn btn-outline-Light text-light purple">Zoek</button>
             </div>

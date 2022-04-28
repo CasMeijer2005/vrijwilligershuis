@@ -36,7 +36,7 @@
         <div class="bedankt">
             <h1> Bedankt voor u donatie</h1>
             <h3> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sapiente amet voluptate suscipit. Necessitatibus, maiores dolorum suscipit quam tempore porro dicta assumenda aliquid. Nobis beatae repellat non veritatis, officiis quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime assumenda culpa ea. Impedit sit dolores odit ducimus omnis voluptatum, iusto nemo autem ullam mollitia est beatae, numquam sequi! Maiores, pariatur.</h3>
-            <button href="/index.php" type="button" class="btn purple text-white">terug naar homepage</button>
+            <button" type="button" class="btn purple text-white"><a href="/vrijwilligershuis/index.php">terug naar homepage</a> </button>
         </div>
     </div>
 </body>

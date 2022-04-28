@@ -53,3 +53,9 @@ nav {
 .text {
   padding-left: 2rem;
 }
+.search {
+  margin-top: 1rem;
+}
+a {
+  text-decoration: none;
+}

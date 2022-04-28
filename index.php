@@ -37,14 +37,21 @@
 
     <main></main>
     <div class="background">
-        <div class="input-group">
-            <input type="search" class="form-control rounded" placeholder="Vacature, evenement, organisatie etc..." aria-label="Search" aria-describedby="search-addon" />
-            <button type="button" class="btn btn-outline-Light text-light purple">Zoek</button>
+        <div class="bluebg">
+            <div class="input-group">
+                <input type="search" class="form-control rounded" placeholder="Vacature, evenement, organisatie etc..." aria-label="Search" aria-describedby="search-addon" />
+                <button type="button" class="btn btn-outline-Light text-light purple">Zoek</button>
+            </div>
+            <div class="uitleg"><img class=" img" src="./assets/img/img5334_159.jpg" alt="ukrain">
+                <div class="text">
+                    <h1>doneer hier iets voor ukraine</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates amet commodi provident neque assumenda repudiandae, laboriosam in ipsum beatae architecto animi cumque dolor maiores temporibus eveniet dolores sapiente necessitatibus, incidunt culpa? Libero, ratione? Ut, fugit soluta. Maxime, dolorem unde!</p>
+                </div>
+            </div>
         </div>
-        <img src="asets/im" alt="">
         <div class="container">
 
-            <div id="im "><img src="./assets/img/unknown.png" alt="ukrain"> </div>
+
             <div class="container d-flex justify-content-center">
                 <form id="RegForm" method="post" action="insert.php">
                     <div class="row">
@@ -84,10 +91,13 @@
                         <lable>Schrijf hier wat belangrijke informatie</lable>
                         <textarea type="notes" class="form-control" name="notes" id="notes" placeholder="Notities" required></textarea>
                     </div>
-                    <input class="btn btn-primary " id="submit" type="submit" name="submit" value="submit">
+                    <input class="btn purple text-white " id="submit" type="submit" name="submit" value="Verzenden">
                 </form>
 
             </div>
+
+        </div>
+    </div>
 </body>
 
 </html>

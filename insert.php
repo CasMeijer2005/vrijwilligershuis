@@ -15,6 +15,7 @@ if (isset($_POST['submit'])) {
     if ($insertQuery->execute()) {
     }
 }
+header("Location:bedankt.php");
 $con->close();
 
 

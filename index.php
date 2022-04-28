@@ -44,7 +44,7 @@
         <img src="asets/im" alt="">
         <div class="container">
 
-            <d <Div id="im ">i<img src="" alt="alternatetext" /div>>
+            <div id="im "><img src="./assets/img/unknown.png" alt="ukrain"> </div>
                 <div class="container d-flex justify-content-center">
                     <form id="RegForm" method="post" action="insert.php">
                         <div class="row">
@@ -74,7 +74,6 @@
                                 <option value="fiets">Fiets doneren</option>
                                 <option value="Kleding">Kleding</option>
                                 <option value="Speelgoed">Speelgoed</option>
-
                                 <option value="Verzorgingsproducten">Verzorgingsproducten</option>
                                 <option value="actititeit">activieit organiseren</option>
                                 <option value="Voetsel">vrijwilliger</option>
